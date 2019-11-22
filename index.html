@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+      <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark primary-color bg-info">
 
         <!-- Название -->
@@ -47,7 +47,7 @@
             </li>
           </ul>
 
-                 <div class="container ">
+                 <div class="container mr-4">
                     <div class="row justify-content-end row align-items-center">
                       <div class="col-sm-1">
                           <img src="image/instagram.png" class="img-fluid">
@@ -60,7 +60,6 @@
                               +7 927-379-57-49
                             </span>
                       </div>
-                     <div  class = col-sm-1 > </div>
                     </div>
                   </div>
 
@@ -72,10 +71,42 @@
           </form>
         </div>
         <!-- Collapsible content -->
-      </nav>
+    </nav>
       <!--/.Navbar-->
 
-
+          <!-- Tab-панель -->
+      <div class="row ml-2 mt-5">
+        <div class="col-2">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Уход за телом</a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Уход за волосами</a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Парфюмерия</a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Еще что-то</a>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"><div class="card" style="width: 10rem;">
+              <img src="image\mother.png" class="card-img-top" alt="...">
+              <div class="card-body py-1 ">
+                <h5 class="card-title text-center">Мамка Стифлера</h5>
+                <p class="card-text ad-flex text-center">Описание</p>
+              </div>
+              <ul class="list-group list-group-flush align-items-center">
+                <li class="list-group-item py-0 ">Цена</li>
+              </ul>
+              <div class="card-body py-0 d-flex justify-content-center">
+                <a href="#" class="card-link ">В корзину</a>
+              </div>
+            </div>
+          </div>
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
+            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
+            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
+          </div>
+        </div>
+      </div>
+            <!-- /.Tab-панель -->
 
   
 
